@@ -2,7 +2,7 @@ package ChuyenDoiHeThapPhanSangHeNhiPhan;
 
 import java.util.Scanner;
 import java.util.Stack;
-public class Baitap1 {
+public class BaiTap1 {
     public static void main(String[] args) {
         Stack<Integer> stack = new Stack<>();
         Scanner sc = new Scanner(System.in);

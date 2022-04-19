@@ -5,7 +5,7 @@ import java.util.TreeMap;
 public class DemSoLan {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Nhập chuỗi: ");
+        System.out.print("Enter string: ");
         String str = sc.nextLine().toLowerCase().trim();
         Map<String, Integer> map = new TreeMap<String, Integer>();
         String[] arr = str.split(" ");

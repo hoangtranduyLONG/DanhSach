@@ -5,16 +5,16 @@ public class SoNguyen {
     public static void main(String[] args) {
         Stack<String> stack = new Stack<>();
         Scanner sc = new Scanner(System.in);
-        System.out.print("Nhập chuỗi: ");
-        String s = sc.nextLine();
-        for (String i : s.toString().split("")) {
+        System.out.print("Enter string: ");
+        String n = sc.nextLine();
+        for (String i : n.toString().split("")) {
             stack.push(i);
         }
-        s = "";
+        n = "";
         System.out.println(stack);
         while (!stack.isEmpty()){
-            s += stack.pop();
+            n += stack.pop();
         }
-        System.out.println("Chuỗi sau khi đảo ngược: " + s);
+        System.out.println("reverse string: " + n);
     }
 }

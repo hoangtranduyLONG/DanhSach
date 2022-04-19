@@ -19,9 +19,9 @@ public class BaiTap2 {
             strStack += stack.pop();
         }
         if (strStack.equals(strQueue)) {
-            System.out.println("Chuỗi " + str + " là Palindrome");
+            System.out.println(" string " + str + " symmetry");
         } else {
-            System.out.println("Chuỗi " + str + " không là Palindrome");
+            System.out.println(" string " + str + " no symmetry");
         }
     }
 }
